@@ -1,13 +1,13 @@
 # Tailwind Labeled Groups
 
-A plugin that allows you to create label `group` utilities like `group-card` or `group-1` and works with Tailwind 3 features.
+A plugin that allows to create multiple `group`s utilities such as `group-card` or `group-1` and works with Tailwind 3 features and all variations.
 
 ---
 
 
 ## Installation
 
-Install the plugin from npm:
+Install the plugin:
 
 ```bash
 # npm
@@ -19,7 +19,7 @@ npm install -D tailwindcss-labeled-groups
 yarn add -D tailwindcss-labeled-groups
 ```
 
-Then add the plugin to your tailwind.config.js file:
+Then add the plugin to your `tailwind.config.js` file:
 
 ```js
 module.exports = {
@@ -39,7 +39,20 @@ module.exports = {
 
 Remember to rename your custom groups!
 
-You are ready to use it!
+You are ready to use it
+
+## Usage
+
+Assuming we have registered the plugin as follows
+
+```js
+require('tailwindcss-labeled-groups')(['custom', '1'])
+```
+
+We now can use:
+
+- `group` (default Tailwind value)
+- `group-custom` and `group-1` (registered in the plugin) with every possible combination of variation
 
 ```html
 <div class="group-custom">
@@ -49,3 +62,11 @@ You are ready to use it!
     <div class="group-custom-focus:bg-pink-200"></div>
 </div>
 ```
+
+## Demo
+
+You can see how it works here: https://play.tailwindcss.com/SMCKXsGYsg
+
+## Acknowledgement
+
+Inspired by: [`tailwindcss-named-groups`](https://www.npmjs.com/package/tailwindcss-named-groups)
