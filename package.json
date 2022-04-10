@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-labeled-groups",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Tailwind plugin that allows you to create multiple groups allowing you to nest them",
   "main": "src/index.js",
   "repository": "https://github.com/onmax/tailwindcss-labeled-groups",
