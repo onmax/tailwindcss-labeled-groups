@@ -7,10 +7,12 @@
   "author": "onmax",
   "license": "MIT",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "release": "release-it"
   },
   "jest": {
     "setupFilesAfterEnv": [
@@ -25,6 +27,7 @@
     "jest-diff": "^27.5.1",
     "postcss": "^8.4.12",
     "prettier": "^2.6.2",
+    "release-it": "^14.14.1",
     "tailwindcss": "^3.0.23"
   }
 }
