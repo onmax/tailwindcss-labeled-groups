@@ -1,3 +1,8 @@
+> [!WARNING]  
+> Since TailwindCSS v3.3, you can handle nested groups natively. See the official [documentation](https://tailwindcss.com/docs/hover-focus-and-other-states#differentiating-nested-groups)
+.
+
+
 # Tailwind Labeled Groups
 
 A plugin that allows to create multiple `group`s utilities such as `group-card` or `group-1` and works with Tailwind 3 features and all variations.
